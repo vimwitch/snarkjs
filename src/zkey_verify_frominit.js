@@ -230,7 +230,7 @@ export default async function phase2verifyFromInit(initFileName, pTauFileName, z
 
     if (logger) logger.info("ZKey Ok!");
 
-    return true;
+    return mpcParams;
 
 
     async function sectionHasSameRatio(groupName, fd1, sections1, fd2, sections2, idSection, g2sp, g2spx, sectionName) {
